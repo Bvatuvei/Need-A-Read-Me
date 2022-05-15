@@ -40,6 +40,7 @@ const {badge, link} = licenseHandler(data.license)
 
   ## Description
   *${data.about}
+
   ## Table of Contents 
   1. [Installation](#installation)
   2. [Usage](#usage)
@@ -47,16 +48,26 @@ const {badge, link} = licenseHandler(data.license)
   4. [Contributing](#contributing)
   5. [Test](#tests)
   6. [Questions](#questions)
+
   ## Installation
-  ${data.install}
+  *${data.install}
+
   ## Usage
+  *${data.usage}
+
   ## License 
   ${data.license} ${badge}
   ${link}
+
   ## Contributing 
+  *${data.contributing}
+
   ## Tests
   *Test Please!
+
   ## Questions
+  *If you have any questions please contact me at ${data.email}
+  *Or visit my github at ${data.github}
 
 
 

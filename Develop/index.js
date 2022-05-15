@@ -34,12 +34,64 @@ const questions = () => {
         {
             type: "input",
             name: "install",
-            message: "Please enter the instructions on how to install your project",
+            message: "Please enter the steps on how to install your project",
             validate: installInput => {
                 if (installInput) {
                     return true;
                 } else {
-                    console.log('Please enter the installation instructions of your project');
+                    console.log('Please enter the steps required to install your project');
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Enter your email address for any questions a reader might have",
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log('please enter your email address')
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Enter the usage of your project",
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log('please enter the usage')
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "Enter the contributors to your project",
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log('please enter the contributors')
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Enter the link to your github account",
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log('please enter the link to your github account')
                     return false;
                 }
             }
