@@ -1,3 +1,6 @@
-# Professional README Generator Starter Code
+# Need-A-Read-Me
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+*This is an app that takes a users input from terminal and adds it to a readme.md template for them to use.
+
+
