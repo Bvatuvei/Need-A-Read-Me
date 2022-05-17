@@ -10,4 +10,4 @@
 *In order to install my program: Step1-create a new directory on local computer. Step2-Go to my GitHub profile @Bvatuvei. Step3-Go to my repositories and select "Need-A-Read-Me". Step4-Click on code and then copy ssh or https. Step5- Open terminal and type "git clone <"your previously copied ssh/https">.
 
 ## Video of Installation
-[https://drive.google.com/drive/folders/1LuFbKVvrPY3znYoqGrUvMrPSbHy9eXyM]
+(https://drive.google.com/drive/folders/1LuFbKVvrPY3znYoqGrUvMrPSbHy9eXyM)
